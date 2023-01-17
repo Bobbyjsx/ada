@@ -81,8 +81,8 @@ function tools() {
           <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>
           <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>
           <div className="rounded-full w-10px h-10px text-transparent flex flex-row">
-            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10 text-transparent ">.</div>
-            <div className="bg-gray-200 rounded-r-full w-1/2 h-10 text-transparent ">.</div>
+            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10px text-transparent ">.</div>
+            <div className="bg-gray-200 rounded-r-full w-1/2 h-10px text-transparent ">.</div>
           </div>
         </div>
       </div>
@@ -97,8 +97,8 @@ function tools() {
           <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>
           <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>
           <div className="rounded-full w-10px h-10px text-transparent flex flex-row">
-            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10 text-transparent ">.</div>
-            <div className="bg-gray-200 rounded-r-full w-1/2 h-10 text-transparent ">.</div>
+            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10px text-transparent ">.</div>
+            <div className="bg-gray-200 rounded-r-full w-1/2 h-10px text-transparent ">.</div>
           </div>
         </div>
       </div>
@@ -112,8 +112,8 @@ function tools() {
           <div className="bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
           <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
           <div className="rounded-full w-10px h-10px text-transparent flex flex-row">
-            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10 text-transparent ">.</div>
-            <div className="bg-gray-200 rounded-r-full w-1/2 h-10 text-transparent ">.</div>
+            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10px text-transparent ">.</div>
+            <div className="bg-gray-200 rounded-r-full w-1/2 h-10px text-transparent ">.</div>
           </div>
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
@@ -141,8 +141,8 @@ function tools() {
           <div className="bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
           <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
           <div className="rounded-full w-10px h-10px text-transparent flex flex-row">
-            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10 text-transparent ">.</div>
-            <div className="bg-gray-200 rounded-r-full w-1/2 h-10 text-transparent ">.</div>
+            <div className="bg-yellow-200 rounded-l-full w-1/2 h-10px text-transparent ">.</div>
+            <div className="bg-gray-200 rounded-r-full w-1/2 h-10px text-transparent ">.</div>
           </div>
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
