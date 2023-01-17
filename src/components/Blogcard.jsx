@@ -9,6 +9,7 @@ function Blogcard(props) {
       href={props.link}
       className="flex flex-row justify-center items-center gap-4 mx-auto sm:p-0 sm:hover:shadow-2xl py-4 ">
       <img
+        loading="lazy"
         src={props.img}
         alt="me"
         className="sm:w-44 sm:hover:w-48 w-36 hover:w-40 duration-500 my-auto border-2 border-white bg-white rounded-md shadow-2xl"

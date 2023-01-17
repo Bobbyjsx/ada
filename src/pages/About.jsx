@@ -7,19 +7,16 @@ import years from "../ASSETS/years.png";
 import industry from "../ASSETS/industry.png";
 import mentored from "../ASSETS/mentored.png";
 import budget from "../ASSETS/budget.png";
-import phone from "../ASSETS/phone.png";
 import St from "../components/St";
 
 function Home() {
-  // const cv = "https://docs.google.com/document/d/1jEO99f2Pf_v4_P-82XSZ04boOeLbgQTkHAk1Zf6IMHs/edit";
-  // const twitter = "https://twitter.com/Ardarh1";
-
   return (
     <div className=" ">
       <Header />
       <div className="my-auto flex flex-col  sm:flex-row gap-0 sm:gap-8 mt-10 overflow-hidden">
         <div className=" flex-shrink-0 mx-auto sm:mx-0 relative">
           <img
+            loading="lazy"
             src={ada}
             alt="me"
             className="w-80 my-auto z-10 relative top-12 left-11 rounded-full "
@@ -47,7 +44,7 @@ function Home() {
             </Link>
             <button
               type="button"
-              className="py-2 sm:w-40 sm:px-0 px-7 border-2   border-yellow-300 hover:bg-slate-100 hover:border-yellow-500 ml-4">
+              className="py-2 sm:w-40 sm:px-0 px-7 border-2 border-yellow-300 hover:bg-slate-100 hover:border-yellow-500 ml-4">
               Personal Data
             </button>
           </div>
@@ -56,17 +53,10 @@ function Home() {
           </h1>
         </div>
         <div className="flex flex-col shrink-0 mx-auto gap-5 sm:mx-0 mt-11 sm:mt-0">
-          <img src={years} alt="" className="w-32 " />
-          <img src={industry} alt="" className="w-64 " />
-          <img src={mentored} alt="" className="w-32 " />
-          <img src={budget} alt="" className="w-56 " />
-        </div>
-        <div className="mx-auto sm:mx-0">
-          <img
-            src={phone}
-            alt=""
-            className="w-[101000000px] relative bottom-80 right-80 overflow-x-hidden hidden"
-          />
+          <img loading="lazy" src={years} alt="" className="w-32 " />
+          <img loading="lazy" src={industry} alt="" className="w-64 " />
+          <img loading="lazy" src={mentored} alt="" className="w-32 " />
+          <img loading="lazy" src={budget} alt="" className="w-56 " />
         </div>
       </div>
       <St />

@@ -5,15 +5,19 @@ import ada from "../ASSETS/adaColored.png";
 function Home() {
   const twitter = "https://twitter.com/Ardarh1";
   const cv = "https://docs.google.com/document/d/1jEO99f2Pf_v4_P-82XSZ04boOeLbgQTkHAk1Zf6IMHs/edit";
-
   const me = "Ezeala Adaugo .G";
   const mail = "adaugo15@gmail.com";
   const email = "mailto:adaugo15@gmail.com";
   return (
-    <div className="h-auto sm:h-[200px]  w-full bg-gray-200  overflow-hidden ">
+    <div className="h-auto sm:h-200  w-full bg-gray-200  overflow-hidden ">
       <Header />
-      <div className="flex flex-col w-3/4 sm:w-10/12 my-auto mx-auto  sm:gap-10 gap-5 mt-[5%]">
-        <img src={ada} alt="" className="w-36 rounded-full shadow-2xl sm:block  hidden " />
+      <div className="flex flex-col w-3/4 sm:w-10/12 my-auto mx-auto  sm:gap-10 gap-5 mt-5%">
+        <img
+          src={ada}
+          alt=""
+          className="w-36 rounded-full shadow-2xl sm:block  hidden "
+          loading="lazy"
+        />
         <h1 className="text-yellow-600 sm:block  hidden font-bold  text-1xl sm:text-4xl  ">
           Personal Data
         </h1>
@@ -57,7 +61,7 @@ function Home() {
         </a>
       </div>
 
-      <div className="relative inset-0 bg-orange-200 top-[-300px] left-3/4 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0" />
+      <div className="relative inset-0 bg-orange-200 -top-300 left-3/4 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0" />
     </div>
   );
 }

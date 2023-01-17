@@ -16,7 +16,7 @@ function Home() {
           backgroundPosition: "center",
           height: "100vh",
         }}
-        className="sm:h-[495px]  flex sm:flex-row flex-col sm:p-0 p-6 h-screen"
+        className="sm:h-495 flex sm:flex-row flex-col sm:p-0 p-6 h-screen"
         loading="lazy">
         <div className="my-auto sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24">
           <img

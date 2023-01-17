@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <div className=" text-white">
-      <nav className="bg-slate-300 border-b-2 border-yellow-400 w-[100%]">
+      <nav className="bg-slate-300 border-b-2 border-yellow-400 w-full">
         <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-7xl ">
           <div className="relative flex h-16 items-center justify-between flex-row-reverse">
             <div className="inset-y-0 left-0  flex items-center  sm:hidden">
@@ -73,7 +73,7 @@ function Header() {
             <div className="flex flex-1 justify-start  sm:items-stretch ">
               <div className="flex flex-shrink-0 items-center">
                 <Link to="/" title="Home" className="">
-                  <img src={logo} alt="logo" className="w-32" />
+                  <img src={logo} alt="logo" className="w-32" loading="lazy" />
                 </Link>
               </div>
               <div id="center" className="hidden sm:ml-6 sm:block my-auto flex flex-1 justify-end">
