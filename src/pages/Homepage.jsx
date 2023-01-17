@@ -7,17 +7,24 @@ import adaColored from "../ASSETS/adaColored.png";
 
 function Home() {
   return (
-    <div className="bg-white text-black w-full overflow-hidden">
+    <div className="bg-gradient-to-r from-yellow-800  text-black w-full h-screen overflow-hidden">
       <Header />
       <div
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
+          height: "100vh",
         }}
-        className="sm:h-[495px] h-[800px] flex sm:flex-row flex-col sm:p-0 p-6">
+        className="sm:h-[495px]  flex sm:flex-row flex-col sm:p-0 p-6 h-screen"
+        loading="lazy">
         <div className="my-auto sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24">
-          <img src={adaColored} alt="me" className="w-72" />
+          <img
+            src={adaColored}
+            alt="me"
+            className="w-72 bg-gradient-to-r from-slate-700 rounded-full"
+            loading="lazy"
+          />
         </div>
 
         <section className=" sm:m-auto my-auto sm:mt-auto mt-0 flex flex-col gap-5  sm:gap-8">
