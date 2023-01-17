@@ -1,28 +1,63 @@
 import React from "react";
 import Header from "../components/Header";
+import ada from "../ASSETS/adaColored.png";
 
 function Home() {
-  return (
-    <div>
-      <Header />
-      <div>
-        <div className="flex flex-row m-auto w-72 gap-11">
-          <h1 className="border-bl-rounded w-64 flex text-center border-b-4 text-4xl font-semibold border-yellow-300 flex-col mb-3 mt-6">
-            Contact
+  const twitter = "https://twitter.com/Ardarh1";
+  const cv = "https://docs.google.com/document/d/1jEO99f2Pf_v4_P-82XSZ04boOeLbgQTkHAk1Zf6IMHs/edit";
 
-            
-          </h1>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="silver"
-            className="bi bi-person-vcard"
-            viewBox="0 0 16 16">
-            <path d="M5 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm4-2.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5ZM9 8a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4A.5.5 0 0 1 9 8Zm1 2.5a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3a.5.5 0 0 1-.5-.5Z" />
-            <path d="M2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2ZM1 4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H8.96c.026-.163.04-.33.04-.5C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1.006 1.006 0 0 1 1 12V4Z" />
-          </svg>
+  const me = "Ezeala Adaugo .G";
+  const mail = "adaugo15@gmail.com";
+  const email = "mailto:adaugo15@gmail.com";
+  return (
+    <div className="h-auto sm:h-[200px]  w-full bg-gray-200  overflow-hidden ">
+      <Header />
+      <div className="flex flex-col w-3/4 sm:w-10/12 my-auto mx-auto  sm:gap-10 gap-5 mt-[5%]">
+        <img src={ada} alt="" className="w-36 rounded-full shadow-2xl sm:block  hidden " />
+        <h1 className="text-yellow-600 sm:block  hidden font-bold  text-1xl sm:text-4xl  ">
+          Personal Data
+        </h1>
+        <div className="flex flex-col sm:flex-row flex-wrap w-full lg:gap-11 gap-7 sm:gap-10">
+          <div className="flex flex-col">
+            <p className="font-normal text-1xl">Full Name</p>
+            <h2 className="font-semibold  text-1xl sm:text-4xl ">{me}</h2>
+          </div>
+          <div className="flex flex-col">
+            <p className="font-normal text-1xl">Address</p>
+            <h2 className="font-semibold  text-1xl sm:text-4xl ">Lagos,Nigeria</h2>
+          </div>
+          <div className="flex flex-col">
+            <p className="font-normal text-1xl">Email</p>
+            <a className="font-semibold  text-1xl sm:text-4xl " href={email}>
+              {mail}
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <p className="font-normal text-1xl">Phone</p>
+            <h2 className="font-semibold  text-1xl sm:text-4xl ">(+234)8162378017</h2>
+          </div>
+          <div className="flex flex-col">
+            <p className="font-normal text-1xl">Twitter</p>
+            <a
+              className="font-semibold  text-1xl sm:text-4xl sm:hover:font-mono duration-1000 delay-1000 text-indigo-800 sm:hover:text-indigo-900"
+              title="My twitter"
+              href={twitter}>
+              Ezeala Adaugo
+            </a>
+          </div>
+          <div className="flex flex-col">
+            <p className="font-normal text-1xl">Languages</p>
+            <h2 className="font-semibold  text-1xl sm:text-4xl ">English</h2>
+          </div>
         </div>
-        <div>hi</div>
+        <a
+          className="border-2 bg-yellow-300 font-sans font-semibold p-3 rounded-md w-48 shadow-xl hover:shadow-inner"
+          href={cv}>
+          Click here to view CV
+        </a>
       </div>
+
+      <div className="relative inset-0 bg-orange-200 top-[-300px] left-3/4 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0" />
     </div>
   );
 }

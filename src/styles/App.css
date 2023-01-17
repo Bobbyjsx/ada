@@ -3,10 +3,22 @@
 @tailwind utilities;
 
 
-.center{
-    display: flex;
-    text-align: center;
+#row{
+    display:flex;
+    flex-direction: row;
 }
-.dash{
-    text-decoration: underline;
+.pdd{
+    padding: 8px;
 }
+.w-64 {
+    width: 657px;
+  }
+
+@media screen and(max-width:550px) {
+    .break{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

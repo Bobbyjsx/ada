@@ -2,135 +2,47 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
 import Header from "../components/Header";
-import back from "../Image/Ada_bub.jpg";
+import bg from "../ASSETS/bgHome.png";
+import adaColored from "../ASSETS/adaColored.png";
 
 function Home() {
   return (
-    <div className="bg-white text-black w-full ">
+    <div className="bg-white text-black w-full overflow-hidden">
       <Header />
-      <div className="flex justify-between flex-col pt-28 sm:flex-row ">
-        <article className="sm:w-1/2 w-full flex flex-col  sm:px-12 gap-4">
-          <h2 className="text-4xl font-serif font-extralight mb-11">
-            Hi, I&apos;m{" "}
-            <span className="bg-yellow-400 rounded-tl-full py-2 px-4 rounded-br-full ">Adaugo</span>{" "}
-            Ezeala😊{" "}
-          </h2>
-          <p className="text-lg font-semibold">
-            I’m an experienced Social Media Consultant specialising in Social Media Strategy. I help
-            ambitious small businesses use{" "}
-            <span className="bg-yellow-400 rounded-full px-2">organic</span> social media more
-            effectively and productively, saving time, money and stress.
-          </p>
-          <p>
-            With the help of my social media strategy services, together we can overcome your
-            challenges and ensure you enjoy the many benefits social media has to offer.
-          </p>
-          <p>
-            Making your social media work harder for your business doesn’t mean spending more time
-            managing it. With over 11 years of experience working in this area, I have valuable tips
-            and insights that will save you time with your social media marketing, enabling you to
-            focus on other critical areas of your business.
-          </p>
-        </article>
-        <div className="w-1/2 flex  ">
-          {/* <img
-            className="sm:rounded-lg rounded-tl-full w-full left-full sm:left-0 relative sm:w-1/2 m-auto  sm:origin-bottom sm:-rotate-12"
-            alt="ada"
-            src={back}
-          /> */}
-          <img
-            loading="lazy"
-            className="rounded-l-full border-r-0 border-4 relative sm:left-0 left-full border-yellow-500"
-            alt="ada"
-            src={back}
-          />
+      <div
+        style={{
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+        className="sm:h-[495px] h-[800px] flex sm:flex-row flex-col sm:p-0 p-6">
+        <div className="my-auto sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24">
+          <img src={adaColored} alt="me" className="w-72" />
         </div>
-        <div className="flex flex-row">
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="indigo"
-            className="bi bi-graph-up-arrow w-11 h-11 relative left-32 top-5"
-            viewBox="0 0 16 16">
-            <path
-              fillRule="evenodd"
-              d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z"
-            />
-          </svg> */}
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="indigo"
-            className="bi bi-lightning-fill w-11 h-11 relative right-36 top-9"
-            viewBox="0 0 16 16">
-            <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z" />
-          </svg> */}
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="gold"
-            className="bi bi-rocket-takeoff w-9 h-9 relative bottom-64 left-48 sm:left-0 sm:top-96"
-            viewBox="0 0 16 16">
-            <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z" />
-            <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z" />
-            <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z" />
-          </svg>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="silver"
-            className="bi bi-telephone-outbound w-20 h-20 sm:relative relative sm:top-28 bottom-20 left-8 sm:right-9 p-0 m-0"
-            viewBox="0 0 16 16">
-            <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z" />
-          </svg> */}
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="indigo"
-            className="bi bi-tornado w-11 h-11 relative top-72"
-            viewBox="0 0 16 16">
-            <path d="M1.125 2.45A.892.892 0 0 1 1 2c0-.26.116-.474.258-.634a1.9 1.9 0 0 1 .513-.389c.387-.21.913-.385 1.52-.525C4.514.17 6.18 0 8 0c1.821 0 3.486.17 4.709.452.607.14 1.133.314 1.52.525.193.106.374.233.513.389.141.16.258.374.258.634 0 1.011-.35 1.612-.634 2.102-.04.07-.08.137-.116.203a2.55 2.55 0 0 0-.313.809 2.938 2.938 0 0 0-.011.891.5.5 0 0 1 .428.849c-.06.06-.133.126-.215.195.204 1.116.088 1.99-.3 2.711-.453.84-1.231 1.383-2.02 1.856-.204.123-.412.243-.62.364-1.444.832-2.928 1.689-3.735 3.706a.5.5 0 0 1-.748.226l-.001-.001-.002-.001-.004-.003-.01-.008a2.142 2.142 0 0 1-.147-.115 4.095 4.095 0 0 1-1.179-1.656 3.786 3.786 0 0 1-.247-1.296A.498.498 0 0 1 5 12.5v-.018a.62.62 0 0 1 .008-.079.728.728 0 0 1 .188-.386c.09-.489.272-1.014.573-1.574a.5.5 0 0 1 .073-.918 3.29 3.29 0 0 1 .617-.144l.15-.193c.285-.356.404-.639.437-.861a.948.948 0 0 0-.122-.619c-.249-.455-.815-.903-1.613-1.43-.193-.127-.398-.258-.609-.394l-.119-.076a12.307 12.307 0 0 1-1.241-.334.5.5 0 0 1-.285-.707l-.23-.18C2.117 4.01 1.463 3.32 1.125 2.45zm1.973 1.051c.113.104.233.207.358.308.472.381.99.722 1.515 1.06 1.54.317 3.632.5 5.43.14a.5.5 0 0 1 .197.981c-1.216.244-2.537.26-3.759.157.399.326.744.682.963 1.081.203.373.302.79.233 1.247-.05.33-.182.657-.39.985.075.017.148.035.22.053l.006.002c.481.12.863.213 1.47.01a.5.5 0 1 1 .317.95c-.888.295-1.505.141-2.023.012l-.006-.002a3.894 3.894 0 0 0-.644-.123c-.37.55-.598 1.05-.726 1.497.142.045.296.11.465.194a.5.5 0 1 1-.448.894 3.11 3.11 0 0 0-.148-.07c.012.345.084.643.18.895.14.369.342.666.528.886.992-1.903 2.583-2.814 3.885-3.56.203-.116.399-.228.584-.34.775-.464 1.34-.89 1.653-1.472.212-.393.33-.9.26-1.617A6.74 6.74 0 0 1 10 8.5a.5.5 0 0 1 0-1 5.76 5.76 0 0 0 3.017-.872.515.515 0 0 1-.007-.03c-.135-.673-.14-1.207-.056-1.665.084-.46.253-.81.421-1.113l.131-.23c.065-.112.126-.22.182-.327-.29.107-.62.202-.98.285C11.487 3.83 9.822 4 8 4c-1.821 0-3.486-.17-4.709-.452-.065-.015-.13-.03-.193-.047zM13.964 2a1.12 1.12 0 0 0-.214-.145c-.272-.148-.697-.297-1.266-.428C11.354 1.166 9.769 1 8 1c-1.769 0-3.354.166-4.484.427-.569.13-.994.28-1.266.428A1.12 1.12 0 0 0 2.036 2c.04.038.109.087.214.145.272.148.697.297 1.266.428C4.646 2.834 6.231 3 8 3c1.769 0 3.354-.166 4.484-.427.569-.13.994-.28 1.266-.428A1.12 1.12 0 0 0 13.964 2z" />
-          </svg> */}
-          {/* <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="indigo"
-            className="bi bi-shield-lock w-11 h-11 relative top-44 right-72"
-            viewBox="0 0 16 16">
-            <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56z" />
-            <path d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415z" />
-          </svg> */}
-        </div>
-      </div>
 
-      <Link to="/about" className="  w-10 m-auto mb-14 pb-24">
-        <button
-          className="m-auto border-slate-700 border-2 px-6 w-auto h-auto rounded-tl-full p-4  rounded-br-full flex flex-row"
-          type="button">
-          <p className="mr-2 align-middle flex pt-1">Learn About Me </p>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="goldenrod"
-            className="bi bi-box-arrow-in-up-rightw-8 h-8 animate-bounce"
-            viewBox="0 0 16 16">
-            <path
-              fillRule="evenodd"
-              d="M6.364 13.5a.5.5 0 0 0 .5.5H13.5a1.5 1.5 0 0 0 1.5-1.5v-10A1.5 1.5 0 0 0 13.5 1h-10A1.5 1.5 0 0 0 2 2.5v6.636a.5.5 0 1 0 1 0V2.5a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 .5.5v10a.5.5 0 0 1-.5.5H6.864a.5.5 0 0 0-.5.5z"
-            />
-            <path
-              fillRule="evenodd"
-              d="M11 5.5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793l-8.147 8.146a.5.5 0 0 0 .708.708L10 6.707V10.5a.5.5 0 0 0 1 0v-5z"
-            />
-          </svg>
-        </button>
-      </Link>
-      <footer className="bg-gray-900 text-center text-slate-400 mt-9">&copy; Adaugo@2022</footer>
+        <section className=" sm:m-auto my-auto sm:mt-auto mt-0 flex flex-col gap-5  sm:gap-8">
+          <h1 className="text-6xl font-cursive font-bold text-yellow-500 tracking-widest">Hello</h1>
+          <p className="text-lg font-serif sm:text-gray-300 text-slate-600 font-semibold relative bottom-4 left-12">
+            You can call me
+          </p>
+          <h2 className="text-3xl font-sans font-bold text-white sm:text-slate-500 tracking-widest -mt-3">
+            ADAUGO GOD&apos;SGIFT
+          </h2>
+          <p className="text-white text-lg">Passionate about Growth and Performance Marketing</p>
+          <div className="mx-auto w-64 flex sm:flex-row flex-col gap-5">
+            <Link
+              to="/About"
+              className="sm:p-3 w-auto p-2 font-semibold text-center flex flex-col bg-yellow-500 rounded-md">
+              ABOUT ME
+            </Link>
+            <Link
+              to="/contact"
+              className="p-2 w-96 sm:w-auto border-2 text-center border-white ml-4 rounded-md  flex flex-col">
+              Personal Data
+            </Link>
+          </div>
+        </section>
+      </div>
     </div>
   );
 }
