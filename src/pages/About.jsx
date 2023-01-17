@@ -2,11 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../components/Header";
 import "../styles/App.css";
-import ada from "../ASSETS/adaBw.png";
-import years from "../ASSETS/years.png";
-import industry from "../ASSETS/industry.png";
-import mentored from "../ASSETS/mentored.png";
-import budget from "../ASSETS/budget.png";
+import ada from "../assets/adaBw.png";
+import years from "../assets/years.png";
+import industry from "../assets/industry.png";
+import mentored from "../assets/mentored.png";
+import budget from "../assets/budget.png";
 import St from "../components/St";
 
 function Home() {

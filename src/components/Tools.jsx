@@ -1,16 +1,16 @@
 import React from "react";
-import suite from "../ASSETS/gSuite.png";
-import analytics from "../ASSETS/analytics.png";
-import firebase from "../ASSETS/firebase.png";
-import manager from "../ASSETS/manager.png";
-import gAds from "../ASSETS/gAds.png";
-import fAds from "../ASSETS/fAds.png";
-import crm from "../ASSETS/crm.png";
-import zoho from "../ASSETS/zoho.png";
-import hubspot from "../ASSETS/hubspot.png";
-import clever from "../ASSETS/clever.png";
-import twitter from "../ASSETS/twitter.png";
-import eplat from "../ASSETS/ePlat.png";
+import suite from "../assets/gSuite.png";
+import analytics from "../assets/analytics.png";
+import firebase from "../assets/firebase.png";
+import manager from "../assets/manager.png";
+import gAds from "../assets/gAds.png";
+import fAds from "../assets/fAds.png";
+import crm from "../assets/crm.png";
+import zoho from "../assets/zoho.png";
+import hubspot from "../assets/hubspot.png";
+import clever from "../assets/clever.png";
+import twitter from "../assets/twitter.png";
+import eplat from "../assets/ePlat.png";
 
 function tools() {
   return (

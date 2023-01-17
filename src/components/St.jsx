@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
-import ada from "../ASSETS/adaColored.png";
+import ada from "../assets/adaColored.png";
 import Skills from "./Skills";
 import Tools from "./Tools";
 

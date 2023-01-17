@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import Header from "../components/Header";
-import ada from "../ASSETS/adaBw.png";
+import ada from "../assets/adaBw.png";
 import Blogcard from "../components/Blogcard";
 
 function Blog() {
@@ -15,104 +15,104 @@ function Blog() {
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />
           <Blogcard
             img={ada}
             details="consectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
- magna aliquam erat
-volutpat. Ut wisi enim ad minim
-vfacilisis at verosi.
-Lorem ipsum dolor sit amet, cons
-ectetuer adipiscing elit, sed diam
-nonummy nibh euismod tincidunt ut
+                      nonummy nibh euismod tincidunt ut
+                      magna aliquam erat
+                      volutpat. Ut wisi enim ad minim
+                      vfacilisis at verosi.
+                      Lorem ipsum dolor sit amet, cons
+                      ectetuer adipiscing elit, sed diam
+                      nonummy nibh euismod tincidunt ut
  "
             link="www.google.com"
           />

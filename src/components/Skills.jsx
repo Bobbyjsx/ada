@@ -1,14 +1,14 @@
 import React from "react";
-import hack from "../ASSETS/growthHack.png";
-import data from "../ASSETS/data.png";
-import community from "../ASSETS/community.png";
-import automation from "../ASSETS/automation.png";
-import ppc from "../ASSETS/ppc.png";
-import content from "../ASSETS/content.png";
-import copy from "../ASSETS/copy.png";
-import visualize from "../ASSETS/visualize.png";
-import com from "../ASSETS/e-com.png";
-import eplat from "../ASSETS/ePlat.png";
+import hack from "../assets/growthHack.png";
+import data from "../assets/data.png";
+import community from "../assets/community.png";
+import automation from "../assets/automation.png";
+import ppc from "../assets/ppc.png";
+import content from "../assets/content.png";
+import copy from "../assets/copy.png";
+import visualize from "../assets/visualize.png";
+import com from "../assets/e-com.png";
+import eplat from "../assets/ePlat.png";
 
 export default function skills() {
   return (

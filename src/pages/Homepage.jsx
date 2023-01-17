@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
 import Header from "../components/Header";
-import bg from "../ASSETS/bgHome.png";
-import adaColored from "../ASSETS/adaColored.png";
+import bg from "../assets/bgHome.png";
+import adaColored from "../assets/adaColored.png";
 
 function Home() {
   return (

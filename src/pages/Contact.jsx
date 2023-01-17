@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "../components/Header";
-import ada from "../ASSETS/adaColored.png";
+import ada from "../assets/adaColored.png";
 
 function Home() {
   const twitter = "https://twitter.com/Ardarh1";

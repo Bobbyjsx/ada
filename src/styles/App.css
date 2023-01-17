@@ -3,22 +3,4 @@
 @tailwind utilities;
 
 
-#row{
-    display:flex;
-    flex-direction: row;
-}
-.pdd{
-    padding: 8px;
-}
-.w-64 {
-    width: 657px;
-  }
-
-@media screen and(max-width:550px) {
-    .break{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
 

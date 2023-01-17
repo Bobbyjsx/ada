@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import Header from "../components/Header";
-import ada from "../ASSETS/adaBw.png";
+import ada from "../assets/adaBw.png";
 import Portfoliocards from "../components/Portfoliocards";
 
 function Portfolio() {

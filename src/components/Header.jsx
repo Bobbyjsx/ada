@@ -2,7 +2,7 @@ import React, { useState } from "react";
 // import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import classNames from "classnames";
-import logo from "../ASSETS/logo.png";
+import logo from "../assets/logo.png";
 
 function Header() {
   const [mobileClass, setMobileClass] = useState(false);
