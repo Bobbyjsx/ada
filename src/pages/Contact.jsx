@@ -9,7 +9,7 @@ function Home() {
   const mail = "adaugo15@gmail.com";
   const email = "mailto:adaugo15@gmail.com";
   return (
-    <div className="h-auto sm:h-200  w-full bg-gray-200  overflow-hidden ">
+    <div className="h-screen  w-full bg-gray-200 overflow-hidden">
       <Header />
       <div className="flex flex-col w-3/4 sm:w-10/12 my-auto mx-auto  sm:gap-10 gap-5 mt-5%">
         <img
@@ -18,9 +18,7 @@ function Home() {
           className="w-36 rounded-full shadow-2xl sm:block  hidden "
           loading="lazy"
         />
-        <h1 className="text-yellow-600 sm:block  hidden font-bold  text-1xl sm:text-4xl  ">
-          Personal Data
-        </h1>
+        <h1 className="text-yellow-600 font-bold  text-1xl sm:text-4xl  ">Contact Details</h1>
         <div className="flex flex-col sm:flex-row flex-wrap w-full lg:gap-11 gap-7 sm:gap-10">
           <div className="flex flex-col">
             <p className="font-normal text-1xl">Full Name</p>
@@ -43,7 +41,7 @@ function Home() {
           <div className="flex flex-col">
             <p className="font-normal text-1xl">Twitter</p>
             <a
-              className="font-semibold  text-1xl sm:text-4xl sm:hover:font-mono duration-1000 delay-1000 text-indigo-800 sm:hover:text-indigo-900"
+              className="font-semibold text-1xl sm:text-4xl text-indigo-800 sm:hover:text-indigo-900"
               title="My twitter"
               href={twitter}>
               Ezeala Adaugo
@@ -56,7 +54,9 @@ function Home() {
         </div>
         <a
           className="border-2 bg-yellow-300 font-sans font-semibold p-3 rounded-md w-48 shadow-xl hover:shadow-inner"
-          href={cv}>
+          href={cv}
+          target="_blank"
+          rel="noreferrer">
           Click here to view CV
         </a>
       </div>

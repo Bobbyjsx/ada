@@ -11,7 +11,7 @@ function Portfolio() {
       <div className="py-14 pdd px-14   gap-11 flex flex-col">
         <h1 className="text-yellow-600 font-sans font-bold text-4xl my-7">PORTFOLIO</h1>
 
-        <div className="flex flex-row flex-wrap sm:w-72% mx-auto gap-y-4">
+        <div className="flex flex-row flex-wrap sm:w-full items-center justify-center gap-y-16">
           <Portfoliocards
             img={ada}
             details="Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod "

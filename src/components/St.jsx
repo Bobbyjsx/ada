@@ -22,8 +22,8 @@ function Portfolio() {
     setToolsText(true);
   };
   return (
-    <div className=" bg-gray-100 pt-14 overflow-hidden">
-      <div className="flex flex-col gap-12 mx-auto w-657 mb-11  relative">
+    <div className=" bg-gray-100 pt-14 overflow-hidden sm:h-[130vh]">
+      <div className="flex flex-col gap-12 mx-auto w-657 mb-28 sm:mb-0 relative">
         <div className="flex flex-row shrink-0 gap-x-4">
           <img src={ada} alt="me" className="w-16 shadow-2xl rounded-b-full " loading="lazy" />
           <div className="my-auto">
@@ -33,12 +33,12 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row sm:gap-16 gap-3 w-430  sm:w-800">
+        <div className="flex flex-row sm:gap-12 gap-3 w-420  sm:w-800">
           <h1
             className={classNames({
               "sm:text-3xl text-1xl text-yellow-600 font-bold flex rounded-full animate-bounce shadow-inner p-4 bg-none cursor-pointer":
                 skillsText,
-              "sm:text-2xl text-xl text-gray-500 p-2 rounded-md font-semibold flex cursor-pointer hover:font-bold":
+              "sm:text-2xl text-xl text-gray-500 p-1 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !skillsText,
             })}
             onClick={handleSkillsSwitch}
@@ -49,7 +49,7 @@ function Portfolio() {
             className={classNames({
               "sm:text-3xl text-1xl text-yellow-600 font-bold flex rounded-full animate-bounce shadow-inner p-4 bg-none cursor-pointer":
                 toolsText,
-              "sm:text-2xl text-xl text-gray-500 p-2 rounded-md font-semibold flex cursor-pointer hover:font-bold":
+              "sm:text-2xl text-xl text-gray-500 p-1 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !toolsText,
             })}
             onClick={handleToolsSwitch}

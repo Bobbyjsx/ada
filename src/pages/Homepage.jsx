@@ -7,23 +7,23 @@ import adaColored from "../assets/adaColored.png";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-yellow-800  text-black w-full h-screen overflow-hidden">
+    <div className="bg-gradient-to-r from-yellow-600  text-black w-full h-[125vh] overflow-hidden">
       <Header />
       <div
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "100vh",
+          height: "125vh",
         }}
-        className="sm:h-495 flex sm:flex-row flex-col sm:p-0 p-6 h-screen"
+        className="sm:h-495 flex sm:flex-row flex-col sm:p-0 p-6 h-screen "
         loading="eager">
         <div className="my-auto sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24">
           <img
             src={adaColored}
             alt="me"
             className="w-72 bg-gradient-to-r from-slate-700 rounded-full"
-            loading="lazy"
+            loading="eager"
           />
         </div>
 
@@ -39,12 +39,12 @@ function Home() {
           <div className="mx-auto w-64 flex sm:flex-row flex-col gap-5">
             <Link
               to="/About"
-              className="sm:p-3 w-auto p-2 font-semibold text-center flex flex-col bg-yellow-500 rounded-md">
+              className="sm:w-auto p-2 font-semibold text-center flex flex-col bg-yellow-500 rounded-md">
               ABOUT ME
             </Link>
             <Link
               to="/contact"
-              className="p-2 w-96 sm:w-auto border-2 text-center border-white ml-4 rounded-md  flex flex-col">
+              className="p-2 sm:w-auto border-2 text-center border-white rounded-md  flex flex-col">
               Personal Data
             </Link>
           </div>

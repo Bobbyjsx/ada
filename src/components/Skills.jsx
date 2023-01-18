@@ -12,9 +12,9 @@ import eplat from "../assets/ePlat.png";
 
 export default function skills() {
   return (
-    <div className="gap-5 sm:gap-12 mx-auto flex flex-row !flex-wrap ">
-      <div className="sm:w-[128px] sm:h-32 h-24  bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
-        <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
+    <div className="gap-5 sm:gap-12 mx-auto flex flex-row !flex-wrap w-87% sm:w-auto overflow-scroll">
+      <div className="sm:w-128 sm:h-32 h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 ">
+        <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-89">
           Growth Hacking
         </h1>
         <img loading="lazy" src={hack} alt="" className="w-7 sm:w-7" />

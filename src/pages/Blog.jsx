@@ -11,11 +11,10 @@ function Blog() {
       <div className="py-14  px-6  gap-5 flex flex-col">
         <h1 className="text-yellow-600 font-sans font-bold text-4xl my-7">Blog</h1>
 
-        <div className="flex flex-row flex-wrap sm:w-full mx-auto gap-y-7">
+        <div className="flex flex-row flex-wrap sm:w-full mx-auto gap-y-3 sm:gap-y-20">
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -27,8 +26,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -40,8 +38,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -53,8 +50,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -66,8 +62,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -79,8 +74,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -92,8 +86,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
@@ -105,8 +98,7 @@ function Blog() {
           />
           <Blogcard
             img={ada}
-            details="consectetuer adipiscing elit, sed diam
-                      nonummy nibh euismod tincidunt ut
+            details="
                       magna aliquam erat
                       volutpat. Ut wisi enim ad minim
                       vfacilisis at verosi.
