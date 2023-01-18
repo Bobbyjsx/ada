@@ -7,14 +7,14 @@ import adaColored from "../assets/adaColored.png";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-yellow-600  text-black w-full h-[125vh] overflow-hidden">
+    <div className="bg-gradient-to-r from-yellow-600  text-black w-full h-full sm:h-screen overflow-x-hidden">
       <Header />
       <div
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          height: "125vh",
+          height: "100%",
         }}
         className="sm:h-495 flex sm:flex-row flex-col sm:p-0 p-6 h-screen "
         loading="eager">

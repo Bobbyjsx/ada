@@ -9,7 +9,7 @@ function Home() {
   const mail = "adaugo15@gmail.com";
   const email = "mailto:adaugo15@gmail.com";
   return (
-    <div className="h-screen  w-full bg-gray-200 overflow-hidden">
+    <div className="h-full sm:h-screen w-full bg-gray-200 overflow-hidden">
       <Header />
       <div className="flex flex-col w-3/4 sm:w-10/12 my-auto mx-auto  sm:gap-10 gap-5 mt-5%">
         <img
