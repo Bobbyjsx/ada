@@ -43,7 +43,9 @@ function Home() {
             <a
               className="font-semibold text-1xl sm:text-4xl text-indigo-800 sm:hover:text-indigo-900 underline sm:hover:no-underline"
               title="My twitter"
-              href={twitter}>
+              target="_blank"
+              href={twitter}
+              rel="noreferrer">
               Ezeala Adaugo
             </a>
           </div>
