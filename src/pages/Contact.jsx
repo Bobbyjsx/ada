@@ -41,7 +41,7 @@ function Home() {
           <div className="flex flex-col">
             <p className="font-normal text-1xl">Twitter</p>
             <a
-              className="font-semibold text-1xl sm:text-4xl text-indigo-800 sm:hover:text-indigo-900"
+              className="font-semibold text-1xl sm:text-4xl text-indigo-800 sm:hover:text-indigo-900 underline sm:hover:no-underline"
               title="My twitter"
               href={twitter}>
               Ezeala Adaugo
