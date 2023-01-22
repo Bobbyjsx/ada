@@ -2,27 +2,28 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
 import Header from "../components/Header";
-import bg from "../assets/bgHome.png";
+import bg from "../assets/bgHome.svg";
 import adaColored from "../assets/adaColored.png";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-r from-yellow-600  text-black w-full h-full sm:h-screen overflow-x-hidden">
+    <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full h-full  overflow-hidden ">
       <Header />
       <div
         style={{
           backgroundImage: `url(${bg})`,
-          backgroundSize: "cover",
+          backgroundSize: "250vh",
+          backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          height: "100%",
+          height: "100vh",
         }}
-        className="sm:h-495 flex sm:flex-row flex-col sm:p-0 p-6 h-screen "
+        className=" flex sm:flex-row flex-col sm:p-0 right-0 top-0  ml-0  overflow-hidden"
         loading="eager">
         <div className="my-auto sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24">
           <img
             src={adaColored}
             alt="me"
-            className="w-72 bg-gradient-to-r from-slate-700 rounded-full"
+            className="w-72 bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full"
             loading="eager"
           />
         </div>
