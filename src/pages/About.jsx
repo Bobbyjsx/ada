@@ -26,12 +26,17 @@ function Home() {
             products for brands then - This is me.
           </p>
           <p className="font-sans mt-5">
-            Hi, my name is Ada, an expert in growth and performance marketing, with a broad spectrum
-            of experience in developing growth processes, user acquisition strategies, A/B testing,
-            analyzing data, and executing marketing campaigns
+            Expert in growth and performance marketing with experience in developing growth
+            processes, user acquisition strategies, A/B testing, data analysis, and executing
+            marketing campaigns. Proven track record of driving significant growth and performance
+            improvements for startups and large enterprise companies. Strong analytical skills and
+            ability to make data-driven decisions. Creative thinker and problem solver with
+            excellent communication and leadership skills.
           </p>
           <h3 className="text-md font-sans font-semibold text-yellow-600 mt-3">FUNFACT</h3>
-          <p className="font-sans mt-2">I love networking, content creation and movies</p>
+          <p className="font-sans mt-2">
+            I love the color yellow. Hobbies are networking, content creation and movies.
+          </p>
           <div className="mx-auto mt-8 flex sm:flex-row flex-col gap-5 ">
             <Link
               to="/"
@@ -58,10 +63,12 @@ function Home() {
             <h1 className="font-bold text-7xl">8+</h1>
             <p className="text-3xl font-light flex flex-wrap w-10px">Industries</p>
           </div>
-          <div className="flex flex-col">
+          <Link to="/Portfolio" className="flex flex-col">
             <h1 className="font-bold text-7xl">3</h1>
-            <p className="text-3xl font-light flex flex-wrap w-10px">Mentored</p>
-          </div>
+            <p className="text-3xl font-light flex flex-wrap w-10px underline sm:hover:no-underline">
+              Mentored
+            </p>
+          </Link>
           <div className="flex flex-col">
             <h1 className="font-bold text-4xl">
               <span className="text-8xl text-yellow-500">$</span>100,000+
@@ -76,5 +83,4 @@ function Home() {
     </div>
   );
 }
-
 export default Home;
