@@ -15,19 +15,6 @@ import eplat from "../assets/ePlat.png";
 function tools() {
   return (
     <div className="sm:gap-12  gap-5 flex flex-row flex-wrap flex-shrink w-83% sm:w-auto ">
-      {/* <div className="sm:w-128 sm:h-32 h-24  bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
-        <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
-          Google Suite
-        </h1>
-        <img loading="lazy" src={suite} alt="" className="w-14 sm:w-20" />
-        <div className="flex flex-row gap-1 sm:gap-2 px-2">
-          <div className="bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>
-          <div className="bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
-          <div className="bg-yellow-300 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
-          <div className="bg-yellow-200 rounded-full w-10px h-10px text-transparent"> .</div>{" "}
-          <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
-        </div>
-      </div> */}
       <div className=" sm:h-32  sm:w-32 h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14 ">
           Google Analytics

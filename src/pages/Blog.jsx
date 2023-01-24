@@ -32,7 +32,7 @@ function Blog() {
             img={w3}
             title="INTRODUCTION TO WEB3 MARKETING"
             details="With the aid of emerging trends and technological advancements, web3 marketing strategies will in no time transform how we view the Internet..."
-            link="www.google.com"
+            link="https://www.linkedin.com/pulse/introduction-web3-marketing-ezeala-adaugo"
           />
           {/* <Blogcard
             img={ada}
