@@ -7,35 +7,35 @@ import adaColored from "../assets/adaColored.png";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full h-full  overflow-hidden ">
+    <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full ">
       <Header />
       <div
         style={{
           backgroundImage: `url(${bg})`,
-          backgroundSize: "290vh",
+          backgroundSize: "420vh",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           // height: "110vh",
         }}
-        className=" flex sm:flex-row sm:h-screen flex-col sm:p-0 right-0 top-0 px-3 ml-0 pb-8 overflow-hidden"
+        className=" flex sm:flex-row sm:h-screen flex-wrap flex-col sm:p-0 right-0 top-0 px-3 ml-0 pb-8 overflow-hidden"
         loading="eager">
-        <div className="sm:my-auto my-5  sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24 shadow-2xl rounded-full">
+        <div className="sm:my-auto mx-auto my-5 shrink-1 grow-0 sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24 shadow-2xl rounded-full">
           <img
             src={adaColored}
             alt="me"
-            className="sm:w-460 w-72 bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full shadow-xl"
+            className="sm:w-460 w-72 bg-gradient-to-bl flex shrink-1 grow-0  from-slate-700 to-gray-700 rounded-full shadow-xl"
             loading="eager"
           />
         </div>
 
-        <section className=" sm:m-auto my-auto sm:mt-auto mt-5 flex flex-col text-center gap-5  sm:gap-4 relative z-10">
-          <h1 className="text-7xl sm:text-6xl benilla font-normal text-yellow-400 tracking-widest">
+        <section className=" sm:m-auto my-auto sm:mt-auto mt-5 flex  flex-col text-center gap-5  sm:gap-4  z-10 ">
+          <h1 className="text-6xl sm:text-6xl benilla font-normal text-yellow-400 tracking-widest flex flex-col text-center ">
             Hello
           </h1>
-          <p className="text-2xl font-sans font-thin sm:text-gray-300 text-slate-600 relative bottom-7 left-12">
+          <p className="text-2xl font-sans  font-thin sm:text-gray-300 text-slate-600 relative bottom-7 left-12">
             You can call me
           </p>
-          <h2 className="text-6xl font-sans font-normal text-white sm:text-slate-500 tracking-widest -mt-3">
+          <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal text-white sm:text-slate-500 tracking-widest -mt-3">
             ADAUGO GOD&apos;SGIFT
           </h2>
           <p className="text-white text-lg flex flex-col text-center relative bottom-5">
@@ -55,7 +55,7 @@ function Home() {
           </div>
         </section>
       </div>
-      <div className="relative inset-0 bg-yellow-400 -top-300 left-80% opacity-10 rounded-t-full rounded-b-full w-96 h-96  z-0 hidden sm:block" />
+      {/* <div className="absolute overflow-hidden  bg-yellow-600  opacity-10 rounded-full  w-96 h-96 z-0 hidden sm:block" /> */}
     </div>
   );
 }
