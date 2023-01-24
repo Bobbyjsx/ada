@@ -29,10 +29,10 @@ function Home() {
         </div>
 
         <section className=" sm:m-auto my-auto sm:mt-auto mt-5 flex flex-col text-center gap-5  sm:gap-4 relative z-10">
-          <h1 className="text-7xl sm:text-9xl font-cursive font-semibold text-yellow-400 tracking-widest">
+          <h1 className="text-7xl sm:text-6xl benilla font-normal text-yellow-400 tracking-widest">
             Hello
           </h1>
-          <p className="text-3xl font-sans font-thin sm:text-gray-300 text-slate-600 relative bottom-9 left-12">
+          <p className="text-2xl font-sans font-thin sm:text-gray-300 text-slate-600 relative bottom-7 left-12">
             You can call me
           </p>
           <h2 className="text-6xl font-sans font-normal text-white sm:text-slate-500 tracking-widest -mt-3">

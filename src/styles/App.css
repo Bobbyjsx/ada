@@ -3,4 +3,13 @@
 @tailwind utilities;
 
 
+@font-face {
+    font-family: 'My Font';
+    src: url('../assets/Benilla\ Calligraphy.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
 
+  .benilla {
+    font-family: 'My Font', sans-serif;
+  }
