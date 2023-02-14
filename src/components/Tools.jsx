@@ -1,5 +1,4 @@
 import React from "react";
-// import suite from "../assets/gSuite.png";
 import analytics from "../assets/analytics.png";
 import firebase from "../assets/firebase.png";
 import manager from "../assets/manager.png";

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  // purge: ["./src/**/*.jsx"],
+  content: ["./src/**/*.{js,jsx,ttf}"],
   theme: {
     fontFamily: {
       cursive: '"Great Vibes", cursive',
@@ -12,6 +13,7 @@ module.exports = {
         200: "200px",
         "90%": "90%",
         "10px": "10px",
+        800: "800px",
       },
       width: {
         495: "495px",

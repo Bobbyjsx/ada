@@ -13,3 +13,53 @@
   .benilla {
     font-family: 'My Font', sans-serif;
   }
+/*  
+.welcome-message {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 14px;
+
+}
+
+#text {
+  font-size: 24px;
+    font-family: poppins, sans-serif;
+    white-space: inherit;
+    overflow: hidden;
+
+    border-right: 5px solid orange; 
+     
+    margin: 0 auto;
+    letter-spacing: .10em; 
+    animation: 
+      typing 2s steps(70, end),
+      blink-caret .72s step-end infinite ;
+}
+
+.typing-indicator {
+  width: 20px;
+  height: 2px;
+  background-color: black;
+  margin-top: 10px;
+  animation: typing 2s infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+ */
+ .loading-path {
+  stroke-dasharray: 140;
+  stroke-dashoffset: 140;
+  stroke-width: 4;
+  stroke: #333;
+  fill: none;
+}
