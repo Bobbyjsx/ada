@@ -15,11 +15,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 A digital marketing portfolio
 
 ### Technologies Used
-React.js
-Tailwind css
-minify
-Eslint
-Prettier
+javaScript,
+React.js,
+Tailwind css,
+minify,
+Eslint,
+Prettier.
 
 ### Installation
 Clone the repository.

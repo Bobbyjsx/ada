@@ -26,7 +26,7 @@ function Home() {
           </div>
           <div className="flex flex-col">
             <p className="font-normal text-1xl">Address</p>
-            <h2 className="font-semibold  text-1xl sm:text-4xl ">Lagos,Nigeria</h2>
+            <address className="font-semibold  text-1xl sm:text-4xl ">Lagos,Nigeria</address>
           </div>
           <div className="flex flex-col">
             <p className="font-normal text-1xl">Email</p>
