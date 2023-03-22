@@ -1,23 +1,22 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
-import Header from "../components/Header";
 import bg from "../assets/bgHome.svg";
 import adaColored from "../assets/adaColored.png";
-import WelcomeMessage from "../components/Welcome";
+// import WelcomeMessage from "../components/Welcome";
 
 function Home() {
-  const [body, setBody] = useState(false);
+  // const [body, setBody] = useState(false);
 
-  let timer;
+  // let timer;
 
-  useEffect(() => {
-    timer = setTimeout(() => setBody(true), 11000);
-    return () => clearTimeout(timer);
-  }, []);
-  return body ? (
+  // useEffect(() => {
+  //   timer = setTimeout(() => setBody(true), 11000);
+  //   return () => clearTimeout(timer);
+  // }, []);
+  return (
     <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full ">
-      <Header />
+      {/* <Header /> */}
       <div
         style={{
           backgroundImage: `url(${bg})`,
@@ -66,8 +65,6 @@ function Home() {
       </div>
       {/* <div className="absolute overflow-hidden  bg-yellow-600  opacity-10 rounded-full  w-96 h-96 z-0 hidden sm:block" /> */}
     </div>
-  ) : (
-    <WelcomeMessage />
   );
 }
 

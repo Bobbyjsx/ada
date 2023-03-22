@@ -7,14 +7,18 @@ function Portfoliocards(props) {
   return (
     <div className="flex flex-col">
       <div className="flex flex-col justify-evenly  font-serif items-center gap-y-2  sm:w-[90%]  mx-auto sm:px-6 ">
-        <div className="w-72 h-72  my-auto border-none bg-white rounded-md shadow-2xl box-border sm:hover:scale-110 duration-500 mb-3 ">
+        <a
+          href={props.link}
+          className="w-72 h-72  my-auto border-none bg-white rounded-md shadow-2xl box-border sm:hover:scale-110 duration-500 mb-3 "
+          target="_blank"
+          rel="noreferrer">
           <img
             loading="lazy"
             src={props.img}
-            alt="me"
+            alt="card banner"
             className="w-72 h-72  my-auto border-none bg-white rounded-md shadow-2xl box-border "
           />
-        </div>
+        </a>
 
         <p className="sm:w-72 text-center my-auto hidden sm:block ">{props.details}</p>
         <a

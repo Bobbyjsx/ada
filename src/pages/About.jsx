@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
 import "../styles/App.css";
 import ada from "../assets/adaBw.png";
 import St from "../components/St";
@@ -8,8 +7,8 @@ import St from "../components/St";
 function Home() {
   return (
     <div className=" ">
-      <Header />
-      <div className="flex flex-col  sm:flex-row gap-0 sm:gap-8 mt-10 overflow-hidden">
+      {/* <Header /> */}
+      <div className="flex flex-col  sm:flex-row gap-0 sm:gap-12 mt-10 overflow-hidden justify-center align-middle">
         <div className=" flex-shrink-0 mx-auto sm:mx-0 relative">
           <img
             loading="lazy"
@@ -56,11 +55,11 @@ function Home() {
         </div>
         <div className="flex flex-col shrink-0 mx-auto gap-5 sm:mx-0 mt-11 sm:mt-0">
           <div className="flex flex-col">
-            <h1 className="font-bold text-7xl">4+</h1>
+            <h1 className="font-bold text-7xl">3+</h1>
             <p className="text-3xl font-light flex flex-wrap w-10px">years of experience</p>
           </div>
           <div className="flex flex-col">
-            <h1 className="font-bold text-7xl">8+</h1>
+            <h1 className="font-bold text-7xl">5+</h1>
             <p className="text-3xl font-light flex flex-wrap w-10px">Industries</p>
           </div>
           <Link to="/Portfolio" className="flex flex-col">
@@ -71,7 +70,7 @@ function Home() {
           </Link>
           <div className="flex flex-col">
             <h1 className="font-bold text-4xl">
-              <span className="text-8xl text-yellow-500">$</span>100,000+
+              <span className="text-8xl text-yellow-500">$</span>50,000+
             </h1>
             <p className="text-3xl font-light flex flex-col flex-wrap w-82 leading-relaxed">
               Monthly <span className="block w-82"> Marketing Budget</span>

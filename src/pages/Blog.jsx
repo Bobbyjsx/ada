@@ -1,7 +1,5 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import Header from "../components/Header";
-// import ada from "../assets/adaBw.png";
 import gA4 from "../assets/gA4.jpeg";
 import gA42 from "../assets/gA42.jpeg";
 import w3 from "../assets/w3.jpeg";
@@ -10,7 +8,7 @@ import Blogcard from "../components/Blogcard";
 function Blog() {
   return (
     <div className="bg-gray-200 ">
-      <Header />
+      {/* <Header /> */}
       <div className="py-14  px-6  gap-5 flex flex-col">
         <h1 className="text-yellow-600 font-sans font-bold text-4xl my-7">Blog</h1>
 

@@ -12,7 +12,7 @@ function Blogcard(props) {
         loading="lazy"
         src={props.img}
         alt="me"
-        className="sm:w-48 my-auto border-2 border-white bg-white rounded-md shadow-2xl duration-200 hidden sm:block"
+        className="sm:w-96 my-auto border-2 border-white bg-white rounded-md shadow-2xl duration-200 hidden sm:block"
       />
       <img
         loading="lazy"

@@ -83,6 +83,7 @@ export default function skills() {
         <img loading="lazy" src={data} alt="" className="sm:w-9 w-5" />
         <div className="shrink flex flex-row gap-1 sm:gap-2 px-2">
           <div className="shrink bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>
+          <div className="shrink bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>
           <div className="shrink bg-yellow-400 rounded-full w-10px h-10px text-transparent">
             {" "}
             .
@@ -186,8 +187,11 @@ export default function skills() {
             {" "}
             .
           </div>{" "}
-          <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
-          <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
+          <div className="shrink bg-yellow-400 rounded-full w-10px h-10px text-transparent"> .</div>
+          <div className="shrink bg-yellow-400 rounded-full w-10px h-10px text-transparent">
+            {" "}
+            .
+          </div>{" "}
         </div>
       </div>
       <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
