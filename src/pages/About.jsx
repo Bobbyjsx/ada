@@ -69,7 +69,7 @@ function Home() {
           </Link>
           <div className="flex flex-col">
             <h1 className="font-bold text-4xl">
-              <span className="text-8xl text-yellow-500">$</span>50,000+
+              <span className="text-8xl text-yellow-500 animate-bounce ">$</span>50,000+
             </h1>
             <p className="text-3xl font-light flex flex-col flex-wrap w-82 leading-relaxed">
               Monthly <span className="block w-82"> Marketing Budget</span>

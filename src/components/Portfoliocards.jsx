@@ -26,16 +26,16 @@ function Portfoliocards(props) {
           href={props.link}
           target="_blank"
           rel="noreferrer">
-          See More...
+          See More
         </a>
         <div className="flex flex-col sm:hidden w-full ">
-          <p className="w-72 text-center mx-auto my-auto text-lg">{props.details}</p>
+          <p className="w-72 text-center mx-auto my-auto text-lg px-2">{props.details}</p>
           <a
-            className="text-blue-500 hover:text-blue-600 my-auto border-b-2 border-gray-100 pb-3 sm:hover:underline"
+            className="text-blue-500 hover:text-blue-600 my-auto border-b-2 border-gray-100 pb-3 sm:hover:underline  flex flex-row justify-center"
             href={props.link}
             target="_blank"
             rel="noreferrer">
-            See More...
+            See More
           </a>
         </div>
       </div>

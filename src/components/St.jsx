@@ -38,7 +38,7 @@ function Portfolio() {
             className={classNames({
               "sm:text-3xl text-xl text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
                 skillsText,
-              "sm:text-2xl text-xl text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
+              "sm:text-2xl text-lg text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !skillsText,
             })}
             onClick={handleSkillsSwitch}
@@ -49,7 +49,7 @@ function Portfolio() {
             className={classNames({
               "sm:text-3xl text-xl text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
                 toolsText,
-              "sm:text-2xl text-xl text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
+              "sm:text-2xl text-lg text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !toolsText,
             })}
             onClick={handleToolsSwitch}
