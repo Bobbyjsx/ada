@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classNames from "classnames";
-import ada from "../assets/adaColored.png";
+import ada from "../assets/adaColored.webp";
 import Skills from "./Skills";
 import Tools from "./Tools";
 
@@ -22,8 +22,8 @@ function Portfolio() {
     setToolsText(true);
   };
   return (
-    <div className=" bg-gray-100 pt-14 overflow-hidden sm:h-[130vh]">
-      <div className="flex flex-col gap-12 mx-auto w-657 mb-28 sm:mb-0 relative">
+    <div className=" bg-gray-100 pt-14 overflow-hidden h-auto sm:h-[130vh]">
+      <div className="flex flex-col gap-12 mx-auto sm:w-657 mb-28 sm:mb-0 relative">
         <div className="flex flex-row shrink-0 gap-x-4">
           <img src={ada} alt="me" className="w-16 shadow-2xl rounded-b-full " loading="lazy" />
           <div className="my-auto">
@@ -33,12 +33,12 @@ function Portfolio() {
             </p>
           </div>
         </div>
-        <div className="flex flex-row sm:gap-12 gap-3 w-420  sm:w-800">
+        <div className="flex flex-row sm:gap-12 gap-3 w-full px-3  sm:w-800">
           <h1
             className={classNames({
-              "sm:text-3xl text-1xl text-yellow-600 font-bold flex rounded-full animate-bounce shadow-inner p-4 bg-none cursor-pointer":
+              "sm:text-3xl text-xl text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
                 skillsText,
-              "sm:text-2xl text-xl text-gray-500 p-1 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
+              "sm:text-2xl text-xl text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !skillsText,
             })}
             onClick={handleSkillsSwitch}
@@ -47,9 +47,9 @@ function Portfolio() {
           </h1>
           <h1
             className={classNames({
-              "sm:text-3xl text-1xl text-yellow-600 font-bold flex rounded-full animate-bounce shadow-inner p-4 bg-none cursor-pointer":
+              "sm:text-3xl text-xl text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
                 toolsText,
-              "sm:text-2xl text-xl text-gray-500 p-1 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
+              "sm:text-2xl text-xl text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !toolsText,
             })}
             onClick={handleToolsSwitch}
@@ -59,8 +59,7 @@ function Portfolio() {
         </div>
         <div
           className={classNames({
-            " sm:w-700 w-420 mx-4  gap-12 flex flex-row flex-nowrap sm:flex-wrap relative z-20":
-              isSkillsActive,
+            " sm:w-700 w-full  ": isSkillsActive,
             "  hidden": !isSkillsActive,
           })}>
           <Skills />
@@ -68,13 +67,12 @@ function Portfolio() {
         <div
           id="tools and proficiency"
           className={classNames({
-            "sm:w-700 w-400 mx-5 gap-12 flex flex-row flex-nowrap sm:flex-wrap relative z-20":
-              isToolsActive,
+            "sm:w-700 w-full  ": isToolsActive,
             " hidden": !isToolsActive,
           })}>
           <Tools />
         </div>
-        <div className="relative inset-0 bg-orange-200 -top-400 left-540 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0 hidden sm:block" />
+        <div className="relative inset-0 bg-orange-200 -top-400 left-540 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0 hidden sm:block animate-bounce" />
       </div>
     </div>
   );

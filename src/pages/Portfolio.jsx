@@ -3,9 +3,9 @@ import React from "react";
 // import ada from "../assets/adaBw.png";
 import ad1 from "../assets/ad1.jpg";
 import ad2 from "../assets/ad2.jpg";
-import soko from "../assets/soko.jpeg";
-import gdg from "../assets/gdf.jpeg";
-import gxi1 from "../assets/gxi1.jpeg";
+import soko from "../assets/soko.jpg";
+import gdg from "../assets/gdf.jpg";
+import gxi1 from "../assets/gxi1.jpg";
 import Portfoliocards from "../components/Portfoliocards";
 import Upcoming from "../components/Upcoming";
 // import bw from '../../src/assets/adaBw.png'

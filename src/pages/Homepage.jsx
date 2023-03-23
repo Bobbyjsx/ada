@@ -1,22 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
-import bg from "../assets/bgHome.svg";
-import adaColored from "../assets/adaColored.png";
-// import WelcomeMessage from "../components/Welcome";
+import bg from "../assets/bgHome.jpg";
+import adaColored from "../assets/adaColored.webp";
 
 function Home() {
-  // const [body, setBody] = useState(false);
-
-  // let timer;
-
-  // useEffect(() => {
-  //   timer = setTimeout(() => setBody(true), 11000);
-  //   return () => clearTimeout(timer);
-  // }, []);
   return (
     <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full ">
-      {/* <Header /> */}
       <div
         style={{
           backgroundImage: `url(${bg})`,

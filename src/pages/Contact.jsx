@@ -1,5 +1,5 @@
 import React from "react";
-import ada from "../assets/adaColored.png";
+import ada from "../assets/adaColored.webp";
 
 function Home() {
   const twitter = "https://twitter.com/Ardarh1";
@@ -62,7 +62,7 @@ function Home() {
         </a>
       </div>
 
-      <div className="relative inset-0 bg-orange-200 -top-300 left-3/4 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0" />
+      <div className="relative inset-0 bg-orange-200 -top-300 left-3/4 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0 animate-bounce" />
     </div>
   );
 }

@@ -12,8 +12,8 @@ import com from "../assets/e-com.png";
 
 export default function skills() {
   return (
-    <div className="shrink gap-5 sm:gap-12 flex flex-row !flex-wrap w-87% sm:w-auto">
-      <div className="shrink sm:w-128 sm:h-32 h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 ">
+    <div className="gap-5 sm:gap-12 flex flex-row flex-wrap h-auto w-full sm:w-auto px-2 justify-center">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-89">
           Growth Hacking
         </h1>
@@ -35,9 +35,9 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink  sm:h-32  sm:w-32 h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap w-[89px] ">
-          Brand Communication
+          Brand <acronym title="communication">Comms.</acronym>
         </h1>
         <img loading="lazy" src={com} alt="" className="sm:w-6 w-7 " />
         <div className="shrink flex flex-row gap-1 sm:gap-2 px-2">
@@ -51,7 +51,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Web3 Marketing
         </h1>
@@ -76,7 +76,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Data Tracking & Analysis
         </h1>
@@ -100,7 +100,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Community Growth and Engagement
         </h1>
@@ -123,7 +123,7 @@ export default function skills() {
           </div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           User Retention
         </h1>
@@ -146,7 +146,7 @@ export default function skills() {
           </div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Marketing Automation
         </h1>
@@ -172,7 +172,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           PPC Strategy And Execution
         </h1>
@@ -194,7 +194,7 @@ export default function skills() {
           </div>{" "}
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Content Development
         </h1>
@@ -220,7 +220,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Copy Writing
         </h1>
@@ -236,7 +236,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Data Visualization
         </h1>
@@ -252,7 +252,7 @@ export default function skills() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           E-Commerce
         </h1>

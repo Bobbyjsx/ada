@@ -13,8 +13,8 @@ import eplat from "../assets/ePlat.png";
 
 function tools() {
   return (
-    <div className="sm:gap-12  gap-5 flex flex-row flex-wrap flex-shrink w-83% sm:w-auto ">
-      <div className=" sm:h-32  sm:w-32 h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+    <div className="gap-5 sm:gap-12 flex flex-row flex-wrap h-auto w-full sm:w-auto px-2 justify-center">
+      <div className=" sm:h-32  sm:w-32 w-20 h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-evenly items-center py-1 shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14 ">
           Google Analytics
         </h1>
@@ -27,7 +27,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Firebase
         </h1>
@@ -40,7 +40,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Google Tag Manager
         </h1>
@@ -56,7 +56,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Google ADs
         </h1>
@@ -72,7 +72,7 @@ function tools() {
           </div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Facebook ADs
         </h1>
@@ -88,7 +88,7 @@ function tools() {
           </div>
         </div>
       </div>
-      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-[89px]">
           Web3 Marketing Tools
         </h1>
@@ -113,7 +113,7 @@ function tools() {
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           CRM Tools
         </h1>
@@ -129,7 +129,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Zoho CRM
         </h1>
@@ -142,7 +142,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Hubspot CRM
         </h1>
@@ -158,7 +158,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Clever Tap
         </h1>
@@ -171,7 +171,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Twitter
         </h1>
@@ -184,7 +184,7 @@ function tools() {
           <div className="bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
-      <div className="sm:w-32 sm:h-32  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-center items-center py-1 shadow-lg">
+      <div className="shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-20 flex flex-col  justify-evenly items-center shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14">
           Email Marketing Platforms
         </h1>

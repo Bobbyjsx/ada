@@ -1,13 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/App.css";
-import ada from "../assets/adaBw.png";
+import ada from "../assets/adaBw.webp";
 import St from "../components/St";
 
 function Home() {
   return (
     <div className=" ">
-      {/* <Header /> */}
       <div className="flex flex-col  sm:flex-row gap-0 sm:gap-12 mt-10 overflow-hidden justify-center align-middle">
         <div className=" flex-shrink-0 mx-auto sm:mx-0 relative">
           <img
