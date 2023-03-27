@@ -8,15 +8,15 @@ import gdg from "../assets/gdf.jpg";
 import gxi1 from "../assets/gxi1.jpg";
 import Portfoliocards from "../components/Portfoliocards";
 import Upcoming from "../components/Upcoming";
-// import bw from '../../src/assets/adaBw.png'
+import faguwa from "../assets/faguwa.jpg";
+// import MyModal from "../components/EventPopup";
 
 function Portfolio() {
   return (
     <div className="bg-gray-200 pb-96">
-      <div className="py-14 pdd px-14 gap-11 flex flex-col  justify-center align-middle min-h-screen max-h-full ">
-        <h1 className="text-yellow-600 font-sans font-bold text-4xl my-7">PORTFOLIO</h1>
-
-        <div className="flex flex-row flex-wrap sm:w-full items-center justify-evenly gap-y-16">
+      <h1 className="text-yellow-600 font-sans font-bold text-4xl mb-7 pt-7 pl-11">PORTFOLIO</h1>
+      <div className="py-14 pdd px-14 gap-11 flex flex-col  justify-center items-center align-middle min-h-screen max-h-full ">
+        <div className="flex flex-row flex-wrap sm:w-[100%] 2xl:w-[60%] 2xl:gap-16 items-center justify-evenly gap-y-16 border-b-2 border-gray-200">
           <Portfoliocards
             img={ad1}
             details="First session Speaker at AfricaNXT 2023, the largest gathering of innovators from across Africa and the diaspora"
@@ -49,29 +49,33 @@ function Portfolio() {
             <h1 className="text-yellow-600 font-sans font-bold text-4xl my-7 underline ">
               Upcoming Events.
             </h1>
-            <div className="flex flex-row flex-wrap items-center justify-evenly  w-full gap-y-16">
+            <div className="flex flex-row flex-wrap items-start justify-evenly w-full gap-y-16">
               {Upcoming.map((item) => {
                 return (
-                  <div key={item.id} className="flex flex-row items-center justify-center ">
-                    <div className="flex flex-col font-sans  gap-1 ">
+                  <div key={item.id} className="flex flex-row items-start justify-start">
+                    <div className="flex flex-col gap-4 ">
                       <img
-                        src="src/assets/adaBw.png"
-                        alt="Event"
-                        className="border-yellow-600 border-2 mb-2 w-72 h-72 bg-white rounded-md shadow-2xl hover:scale-110  duration-500 ease-in-out"
+                        src={faguwa}
+                        alt="Event banner"
+                        className="w-72 h-72 rounded-md shadow-2xl border-2 border-yellow-600 bg-white hover:scale-110 duration-500 ease-in-out"
                         key={item.id}
                       />
-                      <p className="font-semi-bold text-lg font-serif flex text-center flex-wrap w-72 mt-3 border-b-2 border-yellow-600 border-dashed mb-3">
-                        {item.description}
-                      </p>
-                      <p className="font-semi-bold text-lg w-72 flex justify-center">
-                        {" "}
-                        <span className="font-bold text-lg mr-1">Date:</span>
-                        {item.date}
-                      </p>
-                      <p className="font-semi-bold text-lg  w-72 flex justify-center">
-                        {" "}
-                        <span className="font-bold text-lg mr-1">Venue: </span> {item.venue}
-                      </p>
+                      <div className="w-72 px-2 ">
+                        <h2 className="text-lg font-bold text-gray-900">{item.title}</h2>
+                        <p className="text-base font-medium text-gray-500 mt-2">
+                          {item.description}
+                        </p>
+                      </div>
+                      <div className="w-72 px-2">
+                        <h3 className="text-lg font-semibold text-gray-900">Date:</h3>
+                        <p className="text-base font-medium text-gray-500">{item.date}</p>
+                      </div>
+                      <div className="w-72 px-2">
+                        <h3 className="text-lg font-semibold text-gray-900">Venue:</h3>
+                        <p className="text-base font-medium text-gray-500 capitalize">
+                          {item.venue}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 );
@@ -79,6 +83,7 @@ function Portfolio() {
             </div>
           </div>
         ) : null}
+        {/* <MyModal /> */}
       </div>
     </div>
   );

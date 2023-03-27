@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
 import bg from "../assets/bgHome.jpg";
 import adaColored from "../assets/adaColored.webp";
+// import EventPopup from "../components/EventPopup";
 
 function Home() {
   return (
     <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full ">
+      {/* <EventPopup /> */}
       <div
         style={{
           backgroundImage: `url(${bg})`,

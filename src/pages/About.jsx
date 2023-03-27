@@ -3,11 +3,13 @@ import { Link } from "react-router-dom";
 import "../styles/App.css";
 import ada from "../assets/adaBw.webp";
 import St from "../components/St";
+import EventPopup from "../components/EventPopup";
 
 function Home() {
   return (
     <div className=" ">
       <div className="flex flex-col  sm:flex-row gap-0 sm:gap-12 mt-10 overflow-hidden justify-center align-middle">
+        <EventPopup />
         <div className=" flex-shrink-0 mx-auto sm:mx-0 relative">
           <img
             loading="lazy"
@@ -35,7 +37,7 @@ function Home() {
           <p className="font-sans mt-2">
             I love the color yellow. Hobbies are networking, content creation and movies.
           </p>
-          <div className="mx-auto mt-8 flex sm:flex-row flex-col gap-5 ">
+          <div className="mx-auto mt-8 flex sm:flex-row flex-col gap-5 mb-6">
             <Link
               to="/"
               className="py-2 px-10  text-gray-700 font-normal hover:bg-yellow-400 bg-yellow-300 text-center ">
