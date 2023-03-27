@@ -91,7 +91,7 @@ export default function MyModal() {
                   <div className="mt-4">
                     <button
                       type="button"
-                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 outline-none"
+                      className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 "
                       onClick={closeModal}>
                       Got it, thanks!
                     </button>
