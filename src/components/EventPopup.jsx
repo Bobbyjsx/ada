@@ -1,12 +1,23 @@
 /* eslint-disable react/jsx-no-bind */
 import { Dialog, Transition } from "@headlessui/react";
-import { Fragment, useState } from "react";
+import { Fragment, useState, useEffect } from "react";
 import Upcoming from "./Upcoming";
 import faguwa from "../assets/faguwa.jpg";
 
 export default function MyModal() {
-  const [isOpen, setIsOpen] = useState(true);
+  const populat = () => {
+    const storedIsOpen = localStorage.getItem("isOpen");
 
+    if (!storedIsOpen) {
+      return true;
+    }
+    return JSON.parse(storedIsOpen);
+  };
+  const [isOpen, setIsOpen] = useState(populat());
+
+  useEffect(() => {
+    localStorage.setItem("isOpen", JSON.stringify(isOpen));
+  }, [isOpen]);
   function closeModal() {
     setIsOpen(false);
   }

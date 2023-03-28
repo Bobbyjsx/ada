@@ -4,12 +4,13 @@ import "../styles/App.css";
 import ada from "../assets/adaBw.webp";
 import St from "../components/St";
 import EventPopup from "../components/EventPopup";
+import Upcoming from "../components/Upcoming";
 
 function Home() {
   return (
     <div className=" ">
       <div className="flex flex-col  sm:flex-row gap-0 sm:gap-12 mt-10 overflow-hidden justify-center align-middle">
-        <EventPopup />
+        {Upcoming.length > 0 && <EventPopup />}
         <div className=" flex-shrink-0 mx-auto sm:mx-0 relative">
           <img
             loading="lazy"
@@ -47,7 +48,7 @@ function Home() {
               to="/contact"
               type="button"
               className=" py-2 text-center flex flex-col sm:w-40 sm:px-0 px-7 border-2 border-yellow-300 sm:hover:bg-slate-100 sm:hover:border-yellow-500 ">
-              Contact Details
+              View CV
             </Link>
           </div>
           <h1 className="text-3xl font-sans font-semibold text-yellow-700 mt-11 block sm:hidden">
