@@ -17,13 +17,13 @@ function Home() {
           backgroundPosition: "center",
           // height: "110vh",
         }}
-        className=" flex sm:flex-row sm:h-screen flex-wrap flex-col sm:p-0 right-0 top-0 px-3 ml-0 pb-8 overflow-hidden"
+        className=" flex sm:flex-row h-[110vh] sm:h-screen flex-wrap flex-col sm:p-0 right-0 top-0 px-3 ml-0 pb-8 overflow-hidden"
         loading="eager">
-        <div className="sm:my-auto mx-auto my-5 shrink-1 grow-0 sm:mb-auto mb-0 ml-0 flex flex-col items-center sm:ml-24 shadow-2xl rounded-full">
+        <div className="sm:w-auto w-full ml-0 flex flex-col items-center justify-center sm:ml-24  rounded-full mb-4 ">
           <img
             src={adaColored}
             alt="me"
-            className="sm:w-460 w-72 bg-gradient-to-bl flex shrink-1 grow-0  from-slate-700 to-gray-700 rounded-full shadow-xl"
+            className="sm:w-460 w-72 bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full shadow-2xl"
             loading="eager"
           />
         </div>
