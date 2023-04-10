@@ -97,7 +97,6 @@ export default function skills() {
             </div>
           </div>
           <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
-          <div className="shrink bg-gray-200 rounded-full w-10px h-10px text-transparent"> .</div>
         </div>
       </div>
       <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-24 flex flex-col  justify-evenly items-center shadow-lg px-6">

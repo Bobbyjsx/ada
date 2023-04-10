@@ -42,7 +42,7 @@ function Home() {
             alt=""
             className="absolute top-20 right-10 opacity-40 animate-pulse w-[5%]"
           />
-          <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal text-whit sm:text-slate-400 tracking-widest -mt-3">
+          <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal  text-slate-400 tracking-widest -mt-3">
             ADAUGO GOD&apos;SGIFT
           </h2>
           <p className="text-white text-lg flex flex-col text-center relative bottom-5">
