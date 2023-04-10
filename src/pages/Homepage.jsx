@@ -9,15 +9,17 @@ import blah from "../assets/blah.svg";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-tr overflow-x-hidden from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
-      <div className="absolute bottom-0 w-1/2 sm:block hidden  " id="styles">
-        <img src={blah} alt="" className="absolute bottom-0 w-full " />
+    <div className="bg-gradient-to-tr h-full overflow-x-clip min-h-[800px]  sm:h-screen from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
+      <div
+        className="absolute bottom-0 w-1/2 sm:flex items-center justify-center  hidden grayscale  "
+        id="styles">
+        <img src={blah} alt="" className="absolute bottom-0 w-full grayscale opacity-50" />
         <img src="" alt="" />
         <img src="" alt="" />
         <img src="" alt="" />
       </div>
       <div
-        className="flex sm:flex-row min-h-screen py-6 w-full sm:h-screen bg-transparent flex-wrap flex-col sm:gap-0 gap-y-6  home-container z-10 "
+        className="flex sm:flex-row  bg-transparent flex-wrap flex-col sm:gap-0 gap-y-6  home-container z-10 "
         loading="eager">
         <div className="sm:w-1/2 w-full flex flex-col items-center justify-center  rounded-full  m-auto mx-auto box home-container-leftb">
           <img
@@ -40,7 +42,7 @@ function Home() {
             alt=""
             className="absolute top-20 right-10 opacity-40 animate-pulse w-[5%]"
           />
-          <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal text-white sm:text-slate-500 tracking-widest -mt-3">
+          <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal text-whit sm:text-slate-400 tracking-widest -mt-3">
             ADAUGO GOD&apos;SGIFT
           </h2>
           <p className="text-white text-lg flex flex-col text-center relative bottom-5">

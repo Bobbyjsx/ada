@@ -12,7 +12,7 @@ import com from "../assets/e-com.png";
 
 export default function skills() {
   return (
-    <div className="gap-5 sm:gap-12 flex flex-row flex-wrap h-auto w-full sm:w-auto px-2 justify-center home-container">
+    <div className="gap-5 sm:gap-12 flex-shrink flex flex-row flex-wrap h-auto w-full sm:w-auto px-2 justify-center home-container">
       <div className=" shrink sm:w-32 sm:h-32  h-24 bg-white rounded-lg w-24 flex flex-col  justify-evenly items-center shadow-lg px-6">
         <h1 className="flex flex-col text-center font-bold leading-[14px] sm:text-sm text-xs sm:w-24 flex-wrap  w-89">
           Growth Hacking

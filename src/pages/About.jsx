@@ -9,9 +9,9 @@ import Upcoming from "../components/Upcoming";
 function Home() {
   return (
     <div className="home-container-left">
-      <div className="flex flex-col  sm:flex-row gap-0 sm:gap-12 mt-10 overflow-hidden justify-center align-middle">
+      <div className="flex flex-col sm:flex-row gap-0  overflow-x-clip sm:gap-12 mt-10 h-full justify-center align-middle">
         {Upcoming.length > 0 && <EventPopup />}
-        <div className=" flex-shrink-0 mx-auto sm:mx-0 sm:absolute left-0 -z-10">
+        <div className=" flex-shrink-0 mx-auto sm:mx-0 sm:absolute left-0 -z-10 ">
           <img
             loading="lazy"
             src={ada}
@@ -41,7 +41,7 @@ function Home() {
           <div className="mx-auto mt-8 flex sm:flex-row flex-col gap-5 mb-6">
             <Link
               to="/"
-              className="py-2 px-10  text-gray-700 font-normal hover:bg-yellow-400 bg-yellow-300 text-center ">
+              className="py-2 px-10  text-black font-normal hover:bg-yellow-400 bg-yellow-300 text-center ">
               Home
             </Link>
             <Link

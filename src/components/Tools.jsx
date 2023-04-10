@@ -13,7 +13,7 @@ import eplat from "../assets/ePlat.png";
 
 function tools() {
   return (
-    <div className="gap-5 sm:gap-12 flex flex-row flex-wrap h-auto w-full sm:w-auto px-2 justify-center home-container">
+    <div className="gap-5 sm:gap-12 flex-shrink flex flex-row flex-wrap h-auto w-full sm:w-auto px-2 justify-center home-container">
       <div className=" sm:h-32  sm:w-32 w-24  h-24 bg-white rounded-lg flex flex-col gap-1 sm:gap-2 justify-evenly items-center py-1 shadow-lg">
         <h1 className="flex flex-col text-center font-bold leading-14 sm:text-sm text-xs sm:w-24 flex-wrap w-14 ">
           Google Analytics

@@ -22,8 +22,8 @@ function Portfolio() {
     setToolsText(true);
   };
   return (
-    <div className=" bg-gray-100 pt-14 overflow-hidden h-auto sm:h-[130vh] box">
-      <div className="flex flex-col gap-12 mx-auto sm:w-657 mb-28 sm:mb-0 relative">
+    <div className=" bg-gray-100 pt-14 pb-6  min-h-[800px] overflow-x-clip box flex flex-shrink">
+      <div className="flex flex-col gap-12 mx-auto sm:w-657 mb-28 sm:mb-0  relative">
         <div className="flex flex-row shrink-0 gap-x-4">
           <img src={ada} alt="me" className="w-16 shadow-2xl rounded-b-full " loading="lazy" />
           <div className="my-auto">
@@ -36,7 +36,7 @@ function Portfolio() {
         <div className="flex flex-row sm:gap-12 gap-3 w-full px-3  sm:w-800">
           <h1
             className={classNames({
-              "sm:text-3xl text-xl text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
+              "sm:text-3xl text-lg text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
                 skillsText,
               "sm:text-2xl text-lg text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !skillsText,
@@ -47,7 +47,7 @@ function Portfolio() {
           </h1>
           <h1
             className={classNames({
-              "sm:text-3xl text-xl text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
+              "sm:text-3xl text-lg text-yellow-600 font-bold flex p-0 bg-none cursor-pointer animate-pulse":
                 toolsText,
               "sm:text-2xl text-lg text-gray-500 p-0 rounded-md font-semibold flex cursor-pointer sm:hover:font-bold":
                 !toolsText,
@@ -72,7 +72,7 @@ function Portfolio() {
           })}>
           <Tools />
         </div>
-        <div className="relative inset-0 bg-orange-200 -top-400 left-540 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0 hidden sm:block animate-bounce" />
+        <div className="absolute  bg-orange-200 -bottom-32 left-540 opacity-30 rounded-t-full rounded-b-full w-96 h-96  z-0 hidden sm:block animate-bounce" />
       </div>
     </div>
   );

@@ -7,21 +7,16 @@ function Blogcard(props) {
   return (
     <a
       href={props.link}
-      className="flex sm:flex-row flex-col justify-center items-center gap-4 mx-auto sm:p-0 hover:scale-105 duration-300 py-4 home-container-top">
-      <img
-        loading="lazy"
-        src={props.img}
-        alt="me"
-        className="sm:w-96 my-auto border-2 border-white bg-white rounded-md shadow-2xl duration-200 hidden sm:block"
-      />
+      className="flex  flex-col justify-center items-center gap-4 mx-auto sm:p-0 hover:scale-105 duration-300 py-4 home-container-top">
+      <img loading="lazy" src={props.img} alt="me" className={props.imgclass} />
       <img
         loading="lazy"
         src={props.img}
         alt="me"
         className=" w-full my-auto border-2 border-white bg-white rounded-md shadow-2xl duration-200 sm:hidden block"
       />
-      <div className="sm:w-auto w-full ">
-        <h1 className="sm:w-96  text-yellow-700 font-bold text-left flex sm:text-xl text-lg sm:block uppercase">
+      <div className="sm:w-auto w-full px-2">
+        <h1 className="sm:w-96 flex-wrap text-yellow-700 font-bold text-left flex sm:text-xl text-lg sm:block uppercase">
           {props.title}
         </h1>
         <p className="sm:w-80  text-left flex flex-col sm:flex-row sm:text-lg text-sm sm:block">
