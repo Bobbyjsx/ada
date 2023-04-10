@@ -6,7 +6,7 @@ import "../styles/App.css";
 
 function Portfoliocards(props) {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col home-container-left">
       <div className="flex flex-col font-sans gap-y-2 sm:w-[100%] sm:h-[460px] bg-white/30 backdrop-blur-0 pb-4 shadow-2xl">
         <a
           id="cont"

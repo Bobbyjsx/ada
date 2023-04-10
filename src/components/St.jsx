@@ -22,7 +22,7 @@ function Portfolio() {
     setToolsText(true);
   };
   return (
-    <div className=" bg-gray-100 pt-14 overflow-hidden h-auto sm:h-[130vh]">
+    <div className=" bg-gray-100 pt-14 overflow-hidden h-auto sm:h-[130vh] box">
       <div className="flex flex-col gap-12 mx-auto sm:w-657 mb-28 sm:mb-0 relative">
         <div className="flex flex-row shrink-0 gap-x-4">
           <img src={ada} alt="me" className="w-16 shadow-2xl rounded-b-full " loading="lazy" />

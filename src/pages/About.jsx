@@ -8,19 +8,19 @@ import Upcoming from "../components/Upcoming";
 
 function Home() {
   return (
-    <div className=" ">
+    <div className="home-container-left">
       <div className="flex flex-col  sm:flex-row gap-0 sm:gap-12 mt-10 overflow-hidden justify-center align-middle">
         {Upcoming.length > 0 && <EventPopup />}
-        <div className=" flex-shrink-0 mx-auto sm:mx-0 relative">
+        <div className=" flex-shrink-0 mx-auto sm:mx-0 sm:absolute left-0 -z-10">
           <img
             loading="lazy"
             src={ada}
             alt="me"
-            className="w-80 my-auto z-10 relative sm:top-12 sm:left-11 rounded-full "
+            className="w-80 my-auto z-10 relative sm:top-12 sm:left-11 rounded-full sm:opacity-50"
           />
-          <div className="relative inset-0 bg-orange-200 -top-80 left-28 opacity-30 rounded-t-full rounded-b-full w-80 h-80 shadow-xl z-0" />
+          <div className="relative inset-0 bg-orange-200 -top-80 left-28 opacity-40 sm:opacity-20 rounded-t-full rounded-b-full w-80 h-80 shadow-xl z-0" />
         </div>
-        <div className="flex flex-col sm:px-0 px-10  sm:w-1/4 shrink-0 mx-auto sm:mx-0 sm:-mt-0 -mt-72 text-sm sm:text-lg">
+        <div className="flex flex-col sm:px-0 px-10 sm:w-1/2  shrink-0 mx-auto sm:mx-0 sm:-mt-0 -mt-72 text-sm sm:text-lg  align-middle justify-center">
           <h1 className="text-4xl font-sans font-bold text-yellow-700">About Me</h1>
           <p className="font-sans mt-3">
             If you are looking for a marketing professional who enjoys driving growth and scaling
@@ -55,7 +55,7 @@ function Home() {
             Overview
           </h1>
         </div>
-        <div className="flex flex-col shrink-0 mx-auto gap-5 sm:mx-0 mt-11 sm:mt-0">
+        <div className="flex flex-col shrink-0 mx-auto gap-5 sm:mx-0 mt-11 sm:mt-0 box">
           <div className="flex flex-col">
             <h1 className="font-bold text-7xl">3+</h1>
             <p className="text-3xl font-light flex flex-wrap w-10px">years of experience</p>

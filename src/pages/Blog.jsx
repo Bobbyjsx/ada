@@ -7,7 +7,7 @@ import Blogcard from "../components/Blogcard";
 
 function Blog() {
   return (
-    <div className="bg-gray-200 ">
+    <div className="bg-gray-200 box">
       <div className="py-14  px-6  gap-5 flex flex-col">
         <h1 className="text-yellow-600 font-sans font-bold text-4xl my-7">Blog</h1>
 

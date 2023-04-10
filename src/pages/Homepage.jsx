@@ -1,61 +1,65 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
-import bg from "../assets/bgHome.jpg";
 import adaColored from "../assets/adaColored.webp";
-// import EventPopup from "../components/EventPopup";
+// import cop from "../assets/copilot.webp";
+// import met from "../assets/meeting.svg";
+import wave from "../assets/waving_hand.0e986e5dd04c9ed389f1.webp";
+import blah from "../assets/blah.svg";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-tr to-indigo-400 from-orange-500 text-black w-full ">
-      {/* <EventPopup /> */}
+    <div className="bg-gradient-to-tr overflow-x-hidden from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
+      <div className="absolute bottom-0 w-1/2 sm:block hidden  " id="styles">
+        <img src={blah} alt="" className="absolute bottom-0 w-full " />
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
       <div
-        style={{
-          backgroundImage: `url(${bg})`,
-          backgroundSize: "420vh",
-          backgroundRepeat: "no-repeat",
-          backgroundPosition: "center",
-          // height: "110vh",
-        }}
-        className=" flex sm:flex-row h-[110vh] sm:h-screen flex-wrap flex-col sm:p-0 right-0 top-0 px-3 ml-0 pb-8 overflow-hidden"
+        className="flex sm:flex-row min-h-screen py-6 w-full sm:h-screen bg-transparent flex-wrap flex-col sm:gap-0 gap-y-6  home-container z-10 "
         loading="eager">
-        <div className="sm:w-auto w-full ml-0 flex flex-col items-center justify-center sm:ml-24  rounded-full mb-4 ">
+        <div className="sm:w-1/2 w-full flex flex-col items-center justify-center  rounded-full  m-auto mx-auto box home-container-leftb">
           <img
             src={adaColored}
             alt="me"
-            className="sm:w-460 w-72 bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full shadow-2xl"
+            className="sm:w-460 w-72  bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full shadow-2xl flex shrink-1 grow-0 m-auto justify-center items-center"
             loading="eager"
           />
         </div>
 
-        <section className=" sm:m-auto my-auto sm:mt-auto mt-5 flex  flex-col text-center gap-5  sm:gap-4  z-10 ">
+        <section className=" m-auto flex  flex-col text-center gap-5  sm:gap-4   lg:w-2/4 ">
           <h1 className="text-6xl sm:text-6xl benilla font-normal text-yellow-400 tracking-widest flex flex-col text-center ">
             Hello
           </h1>
           <p className="text-2xl font-sans  font-thin sm:text-gray-300 text-slate-600 relative bottom-7 left-12">
             You can call me
           </p>
+          <img
+            src={wave}
+            alt=""
+            className="absolute top-20 right-10 opacity-40 animate-pulse w-[5%]"
+          />
           <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal text-white sm:text-slate-500 tracking-widest -mt-3">
             ADAUGO GOD&apos;SGIFT
           </h2>
           <p className="text-white text-lg flex flex-col text-center relative bottom-5">
             Passionate about Growth and Performance Marketing
           </p>
-          <div className="mx-auto flex sm:flex-row flex-col gap-5">
+          <div className="mx-auto flex sm:flex-row flex-col gap-5 text-white">
             <Link
               to="/About"
-              className="w-60 h-14 p-2 font-normal text-center flex flex-col bg-yellow-400 rounded-sm justify-center text-md">
+              className="w-60 h-14 p-2 font-normal text-black text-center flex flex-col rounded-lg  shadow-inner bg-yellow-400  justify-center text-md">
               ABOUT ME
             </Link>
             <Link
               to="/contact"
-              className="w-60 h-14 p-2 border-2 text-center border-white rounded-sm  flex flex-col justify-center text-md shadow-lg">
+              className="w-60 h-14 p-2 border-2 text-center border-slate-500 rounded-lg flex flex-col justify-center text-md shadow-lg">
               PERSONAL DATA
             </Link>
           </div>
         </section>
       </div>
-      {/* <div className="absolute overflow-hidden  bg-yellow-600  opacity-10 rounded-full  w-96 h-96 z-0 hidden sm:block" /> */}
     </div>
   );
 }

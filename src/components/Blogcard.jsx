@@ -7,7 +7,7 @@ function Blogcard(props) {
   return (
     <a
       href={props.link}
-      className="flex sm:flex-row flex-col justify-center items-center gap-4 mx-auto sm:p-0 hover:scale-105 duration-300 py-4 ">
+      className="flex sm:flex-row flex-col justify-center items-center gap-4 mx-auto sm:p-0 hover:scale-105 duration-300 py-4 home-container-top">
       <img
         loading="lazy"
         src={props.img}

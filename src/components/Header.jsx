@@ -21,7 +21,7 @@ function Header() {
 
   return (
     <div className=" text-white">
-      <nav className="bg-slate-300 border-b-2 border-yellow-400 w-full">
+      <nav className="bg-slate-300 border-b-2 border-yellow-400 w-full home-container-left">
         <div className="mx-auto  px-2 sm:px-6 lg:px-8 max-w-7xl ">
           <div className="relative flex h-16 items-center justify-between flex-row-reverse">
             <div className="inset-y-0 left-0  flex items-center  sm:hidden">
