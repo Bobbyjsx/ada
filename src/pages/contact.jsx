@@ -3,7 +3,8 @@ import ada from "../assets/adaColored.webp";
 
 function Home() {
   const twitter = "https://twitter.com/Ardarh1";
-  const cv = "https://docs.google.com/document/d/1jEO99f2Pf_v4_P-82XSZ04boOeLbgQTkHAk1Zf6IMHs/edit";
+  const cv =
+    "https://docs.google.com/document/d/1InuGvDgz8y-ZzerzLWxRvVI-BaqWtv19WpxN_-gppt4/edit?usp=sharing";
   const me = "Ezeala Adaugo .G";
   const mail = "adaugo15@gmail.com";
   const email = "mailto:adaugo15@gmail.com";
