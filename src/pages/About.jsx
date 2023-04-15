@@ -8,8 +8,8 @@ import Upcoming from "../components/Upcoming";
 
 function Home() {
   return (
-    <div className="home-container-left">
-      <div className="flex flex-col sm:flex-row gap-0  overflow-x-clip sm:gap-12 mt-10 h-full justify-center align-middle">
+    <div className="home-container-left overflow-x-hidden w-full">
+      <div className="flex flex-col sm:flex-row gap-0 w-full overflow-x-hidden sm:gap-12 mt-10 h-full justify-center align-middle">
         {Upcoming.length > 0 && <EventPopup />}
         <div className=" flex-shrink-0 mx-auto sm:mx-0 sm:absolute left-0 -z-10 ">
           <img

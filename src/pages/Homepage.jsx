@@ -9,7 +9,7 @@ import blah from "../assets/blah.svg";
 
 function Home() {
   return (
-    <div className="bg-gradient-to-tr h-full overflow-x-clip min-h-[800px]  sm:h-screen from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
+    <div className="bg-gradient-to-tr h-full overflow-x-hidden min-h-[800px]  sm:h-screen from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
       <div
         className="absolute bottom-0 w-1/2 sm:flex items-center justify-center  hidden grayscale  "
         id="styles">
@@ -25,7 +25,7 @@ function Home() {
           <img
             src={adaCoporate}
             alt="me"
-            className="sm:w-460 w-72  bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full shadow-2xl flex shrink-1 grow-0 m-auto justify-center items-center"
+            className="sm:w-460 w-72  bg-gradient-to-bl from-[#0e1024] to-slate-600 rounded-full shadow-2xl flex shrink-1 grow-0 m-auto justify-center items-center"
             loading="eager"
           />
         </div>
@@ -40,7 +40,7 @@ function Home() {
           <img
             src={wave}
             alt=""
-            className="absolute top-20 right-10 opacity-40 animate-pulse w-[5%]"
+            className="sm:absolute top-20 right-10 opacity-40 animate-pulse w-[5%] hidden"
           />
           <h2 className="sm:text-6xl text-4xl flex-1 flex-col text-center font-sans flex shrink font-normal  text-slate-400 tracking-widest -mt-3">
             ADAUGO GOD&apos;SGIFT
