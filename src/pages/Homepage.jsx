@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
-import adaColored from "../assets/adaColored.webp";
+import adaCoporate from "../assets/ada_coporate.jpg";
 // import cop from "../assets/copilot.webp";
 // import met from "../assets/meeting.svg";
 import wave from "../assets/waving_hand.0e986e5dd04c9ed389f1.webp";
@@ -23,7 +23,7 @@ function Home() {
         loading="eager">
         <div className="sm:w-1/2 w-full flex flex-col items-center justify-center  rounded-full  m-auto mx-auto box home-container-leftb">
           <img
-            src={adaColored}
+            src={adaCoporate}
             alt="me"
             className="sm:w-460 w-72  bg-gradient-to-bl from-slate-700 to-gray-700 rounded-full shadow-2xl flex shrink-1 grow-0 m-auto justify-center items-center"
             loading="eager"
