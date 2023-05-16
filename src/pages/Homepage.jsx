@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/dist/output.css";
 import adaCoporate from "../assets/ada_coporate.jpg";
@@ -6,10 +6,26 @@ import adaCoporate from "../assets/ada_coporate.jpg";
 // import met from "../assets/meeting.svg";
 import wave from "../assets/waving_hand.0e986e5dd04c9ed389f1.webp";
 import blah from "../assets/blah.svg";
+import WelcomeMessage from "../components/Welcome";
 
 function Home() {
+  const [loading, setLoading] = useState(() => {
+    const savedLoading = localStorage.getItem("loading");
+    return savedLoading ? JSON.parse(savedLoading) : true;
+  });
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+      localStorage.setItem("loading", JSON.stringify(false));
+    }, 5500);
+  }, []);
+
+  if (loading) {
+    return <WelcomeMessage />;
+  }
   return (
-    <div className="bg-gradient-to-tr h-full overflow-x-hidden min-h-[800px]  sm:h-screen from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
+    <div className="bg-gradient-to-tr  min-h-screen  h-full py-10 max-h-max sm:h-screen from-[#0e1024] to-slate-800 backdrop-filter backdrop-blur-8 text-black  flex flex-col justify-center items-center align-middle m-auto w-full ">
       <div
         className="absolute bottom-0 w-1/2 sm:flex items-center justify-center  hidden grayscale  "
         id="styles">

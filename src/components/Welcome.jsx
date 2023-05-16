@@ -25,7 +25,7 @@ function WelcomeMessage() {
       })
       .add({
         targets: ".welcome-message, #text",
-        duration: 9000, // add 5 seconds of duration for pause
+        duration: 2000, // add 5 seconds of duration for pause
       })
       .add({
         targets: ".welcome-message, #text",
@@ -55,7 +55,7 @@ function WelcomeMessage() {
       targets: progress,
       value: 100,
       easing: "linear",
-      duration: 9000,
+      duration: 5000,
       update() {
         setProgress(Math.round(loadingAnimation.progress));
       },

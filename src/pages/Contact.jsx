@@ -9,7 +9,7 @@ function Home() {
   const mail = "adaugo15@gmail.com";
   const email = "mailto:adaugo15@gmail.com";
   return (
-    <div className="min-h-[800px] h-screen w-full bg-gray-200 overflow-hidden">
+    <div className="min-h-[700px] h-screen w-full bg-gray-200 overflow-hidden">
       <div className="flex flex-col w-3/4 sm:w-10/12 my-auto mx-auto  sm:gap-10 gap-5 mt-5 home-container ">
         <img
           src={ada}

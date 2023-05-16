@@ -12,7 +12,7 @@ import faguwa from "../assets/faguwa.jpg";
 
 function Portfolio() {
   return (
-    <div className="bg-gray-200 pb-96 box">
+    <div className="bg-gray-200 pb-96 box min-h-screen  h-full py-10 max-h-max">
       <h1 className="text-yellow-600 font-sans font-bold text-4xl mb-7 pt-7 pl-11">PORTFOLIO</h1>
       <div className="py-14 pdd px-14 gap-11 flex flex-col  justify-center items-center align-middle min-h-screen max-h-full ">
         <div className="flex flex-row flex-wrap sm:w-[100%] 2xl:w-[60%] 2xl:gap-16 items-center justify-evenly gap-y-16 border-b-2 border-gray-200 gap-7">
